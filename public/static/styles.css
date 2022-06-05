@@ -1,0 +1,140 @@
+
+
+/* ========== Global CSS ============= */
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 , p {
+    color: #464646;
+}
+
+.orange {
+    background-color: #F8AB6B;
+}
+.gray {
+    background-color: #E5E5E5;
+}
+.orangeText {
+    color: #F87000;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+}
+
+.subTitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.secoundTitle {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+
+
+/* ========= Process Style =========== */
+.leftSpace {
+    padding-left: 110px;
+}
+
+.boldContent {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.smallContent {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.qButton {
+    background-color: #4E309A;
+    color: white;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 25px;
+    line-height: 38px;  
+}
+.wButton {
+    background-color: #F8AB6B;
+    padding: 10px 20px;
+    border: 1px solid #4E309A;
+    border-radius: 30px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #4E309A;  
+}
+.numberContent {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    background-color: #FFE1E5;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    text-align: center;
+}
+.numberCenter {
+    margin: auto;
+    padding: 5px;
+}
+
+/* ============== Service Style =========== */
+
+.midContent {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.squareSpace {
+    padding: 25px 0;
+}
+
+.rightContentBg {
+    background-color: #D4CFFC;
+    border-radius: 10px;
+    width: 159px;
+    margin: 10px auto;
+}
+.rightContentVideo {
+    background-color: #D4CFFC;
+    border-radius: 10px;
+    margin: 10px auto;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 260px;
+}
+
+.rightContent {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 30px 0px;
+}
+
+/* ============== Affordable Style =========== */
+
+.oButton {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    background-color: #F87000;
+    color: white;
+    padding: 10px 50px;
+    border: 0;
+    border-radius: 30px;
+}
+

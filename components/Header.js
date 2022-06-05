@@ -1,4 +1,4 @@
-import logo from '../src/logo/DicoItLogo.png'
+import logo from '../public/src/logo/DicoItLogo.png'
 import Link from 'next/link';
 import Image from 'next/image'
 import Router from 'next/router'
@@ -9,7 +9,7 @@ const Header = () => {
     return (
     <>
         <div className="container-fluid navbar-light bg-light">
-            <div class="container">
+            <div className="container">
                 <nav className="navbar navbar-expand-lg">
                         <Link href="/"><a><Image src={logo} alt="DicoIT" className='logo'/></a></Link>
 

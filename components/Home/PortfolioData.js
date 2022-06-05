@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import bag from '../../src/images/portfolio/bag.png'
-import car from '../../src/images/portfolio/car.png'
-import cates from '../../src/images/portfolio/cates.png'
-import headphone from '../../src/images/portfolio/headphone.png'
-import seat from '../../src/images/portfolio/seat.png'
-import shoe from '../../src/images/portfolio/shoe.png'
-import stool from '../../src/images/portfolio/stool.png'
-import watch from '../../src/images/portfolio/watch.png'
+import bag from '../../public/src/images/portfolio/bag.png'
+import car from '../../public/src/images/portfolio/car.png'
+import cates from '../../public/src/images/portfolio/cates.png'
+import headphone from '../../public/src/images/portfolio/headphone.png'
+import seat from '../../public/src/images/portfolio/seat.png'
+import shoe from '../../public/src/images/portfolio/shoe.png'
+import stool from '../../public/src/images/portfolio/stool.png'
+import watch from '../../public/src/images/portfolio/watch.png'
 
 const PortfolioData = () => {
     return (

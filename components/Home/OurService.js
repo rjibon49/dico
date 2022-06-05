@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import ui from '../../src/images/UiUX-Design.png'
-import web from '../../src/images/Web-Design.png'
-import app from '../../src/images/App-Design.png'
-import product from '../../src/images/Product-Design.png'
-import video from '../../src/images/Video-Editing.png'
+import ui from '../../public/src/images/UiUX-Design.png'
+import web from '../../public/src/images/Web-Design.png'
+import app from '../../public/src/images/App-Design.png'
+import product from '../../public/src/images/Product-Design.png'
+import video from '../../public/src/images/Video-Editing.png'
 
 
 const OurService = () => {

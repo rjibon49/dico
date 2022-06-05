@@ -15,7 +15,7 @@ export default function Document() {
 
              {/* Custom CSS  */}
 
-             <link rel="stylesheet" type="css" href="/_next/static/css/styles.css" />
+             {/* <link rel="stylesheet" type="css" href="/_next/public/static/styles.css" /> */}
 
         </Head>
       <body>

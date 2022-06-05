@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link';
-import design from '../../src/images/redesign.png'
+import design from '../../public/src/images/redesign.png'
 
 
 const RedesignNote = () => {

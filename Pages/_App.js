@@ -1,6 +1,6 @@
 // pages/_app.js
 import Head from 'next/head'
-// import '../static/css/styles.css'
+import '../public/static/styles.css'
 
 function MyApp({ Component, pageProps }) {
   return (

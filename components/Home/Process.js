@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import loding from '../../src/images/loding.png'
+import loding from '../../public/src/images/loding.png'
 
 const Process = () => {
     return (

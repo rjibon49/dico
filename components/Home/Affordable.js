@@ -8,7 +8,7 @@ const Affordable = () => {
         <div className="container-fluid py-5">
            <div className="container py-5 my-5">
                <div className='text-center'>
-                   <h2>Affordable Price!</h2>
+                   <h2 className=''>Affordable Price!</h2>
                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id dolor vitae aliquet placerat ac. Arcu, mattis faucibus erat nunc enim, facilisi tellus placerat et. Sagittis viverra feugiat phasellus auctor orci odio id et. Id sed hendrerit nisl sit congue velit felis.</p>
                </div>
                 <div className="row">

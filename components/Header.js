@@ -18,19 +18,29 @@ const Header = () => {
                     </button>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        
+                        <form className="d-flex ms-auto">
+                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                            <button className="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-5">
                             <li className="nav-item mx-2">
-                                <Link href="#service">Service</Link>
+                                <Link href="#service"><a className='menuLinkBlack'>Home</a></Link>
                             </li>
                             <li className="nav-item mx-2">
-                                <Link href="/contact">Contact Us</Link>
+                                <Link href="/contact"><a className='menuLinkBlack'>About Us</a></Link>
+                            </li>
+                            <li className="nav-item mx-2">
+                                <Link href="/contact"><a className='menuLinkBlack'>Portfolio</a></Link>
+                            </li>
+                            <li className="nav-item mx-2">
+                                <Link href="#service"><a className='menuLinkBlack'>Service</a></Link>
+                            </li>
+                            <li className="nav-item mx-2">
+                                <Link href="/contact"><a className='menuLinkBlack'>Contact Us</a></Link>
                             </li>
                         </ul>
-
-                        <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                                <button className="btn btn-outline-success" type="submit">Search</button>
-                        </form>
                     </div>
                 </nav>
             </div>

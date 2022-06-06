@@ -12,11 +12,25 @@ h1, h2, h3, h4, h5, h6 , p {
 .orange {
     background-color: #F8AB6B;
 }
+
 .gray {
     background-color: #E5E5E5;
 }
+
+.purple {
+    background-color: #4E309A;
+}
+
 .orangeText {
     color: #F87000;
+}
+
+.redText {
+    color: #E33B39;
+}
+
+.yellowText {
+    color: #FFC100;
 }
 
 .title {
@@ -30,6 +44,12 @@ h1, h2, h3, h4, h5, h6 , p {
     font-size: 16px;
     line-height: 24px;
 }
+.subTitleWhite {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
 
 .secoundTitle {
     font-weight: 500;
@@ -37,6 +57,12 @@ h1, h2, h3, h4, h5, h6 , p {
     line-height: 48px;
 }
 
+.imageStyle {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
 /* ========= Process Style =========== */
@@ -54,6 +80,14 @@ h1, h2, h3, h4, h5, h6 , p {
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
+}
+.LargeContent {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    /* or 135% */
+
+    letter-spacing: 0.1em;
 }
 
 .qButton {
@@ -138,3 +172,26 @@ h1, h2, h3, h4, h5, h6 , p {
     border-radius: 30px;
 }
 
+/* ============== Footer Style =========== */
+
+.menuLinkBlack {
+    text-decoration: none;
+    color: #464646;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+}
+.menuLinkWhite {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.iconBg {
+    background-color: white;
+    width: 36px;
+    height: 24px;
+    border-radius: 4px;
+}

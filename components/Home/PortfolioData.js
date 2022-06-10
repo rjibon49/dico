@@ -10,7 +10,7 @@ import watch from '../../public/src/images/portfolio/watch.png'
 
 const PortfolioData = () => {
     return (
-        <div className="container-fluid py-5">
+        <div className="container-fluid py-5" id='portfolio'>
             <div className="container py-5">
                 <div className='mb-5'>
                     <h4 className='midContent'>portfolio</h4>

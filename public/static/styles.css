@@ -69,7 +69,63 @@ h1, h2, h3, h4, h5, h6 , p {
     font-weight: 400;
     line-height: 15px;
     color: white;
+    max-width: 510px;
 }
+
+/* ========= Banner Style =========== */
+
+.bannerDiv {
+    position: absolute;
+    top: 75px;
+    right: 0;
+}
+
+.topButton {
+    max-width: 510px;
+    text-align: center;
+    height: 365px;
+}
+
+.tButton {
+    background-color: #FACB4B;
+    color: #292D32;
+    width: 150px;
+    height: 50px;
+    border: 0;
+    border-radius: 42px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400; 
+}
+.pButton {
+    background-color: #4E309A;
+    padding: 10px 20px;
+    border: 2px solid #FACB4B;
+    border-radius: 30px;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;  
+}
+
+.sendImage {
+    margin: 2px 0px 10px 0px !important;
+}
+
+.checkOut {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: white;
+}
+/* ========= About Style =========== */
+
+.leftImage , .rightImage {
+    background-color: #C8C3FB !important;
+}
+
+
+
+
 
 /* ========= Process Style =========== */
 .leftSpace {

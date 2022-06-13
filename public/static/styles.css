@@ -71,6 +71,12 @@ h1, h2, h3, h4, h5, h6 , p {
     color: white;
     max-width: 510px;
 }
+.about {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #464646;
+}
 
 /* ========= Banner Style =========== */
 
@@ -337,4 +343,16 @@ h1, h2, h3, h4, h5, h6 , p {
   .subscription.done .submit-email .after-submit {
     visibility: visible;
     opacity: 1;
+  }
+
+  .test {
+    max-width: 30%;
+  }
+  .aboutPosiTion {
+    position: absolute;
+    bottom: -87px;
+    left: 45px;
+  }
+  .aboutImage {
+    min-width: 80% !important;
   }

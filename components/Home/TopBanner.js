@@ -4,11 +4,13 @@ import send from '../../public/src/images/send.png'
 import arrow from '../../public/src/images/arrow.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faSearch,
-    faAmbulance,
-    faAnchor,
-    faPaperPlane,
-  } from "@fortawesome/free-solid-svg-icons";
+    faDribbble,
+    faInstagram,
+    faBehance,
+    faFacebookSquare,
+    faFigma,
+    faWhatsapp
+  } from '@fortawesome/free-brands-svg-icons';
 
 const TopBanner = () => {
     return (
@@ -29,18 +31,15 @@ const TopBanner = () => {
                         </div>
                         <div className='pb-5'>
                             <span className='checkOut'>Check Out Us</span>
-                            <FontAwesomeIcon
-                                icon={faSearch}
-                                style={{ fontSize: 20, color: "white" }}
-                            />
-                            <FontAwesomeIcon icon={faPaperPlane} style={{ fontSize: 20, color: "white" }}/>
+                            <FontAwesomeIcon icon={faDribbble} className="socialIcon" />
+                            <FontAwesomeIcon icon={faInstagram} className="socialIcon" />
+                            <FontAwesomeIcon icon={faBehance} className="socialIcon" />
+                            <FontAwesomeIcon icon={faFacebookSquare} className="socialIcon" />
+                            <FontAwesomeIcon icon={faFigma} className="socialIcon" />
+                            <FontAwesomeIcon icon={faWhatsapp} className="socialIcon" />
+                            {/* <FontAwesomeIcon icon={faWhatsapp} style={{ fontSize: 20, color: "white" }} /> */}
                         </div>
-                    </div>
-                    {/* <div className="m-0 p-0">
-                        <Image src={topBannerImage} alt="topBannerImage" className='' />
-                    </div> */}
-                    <FontAwesomeIcon icon="fa-brands fa-facebook-square" />
-                    <FontAwesomeIcon icon="fa-brands fa-instagram" />
+                    </div>    
                 </div>
             </div>
         </div>

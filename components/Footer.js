@@ -3,6 +3,14 @@ import Image from 'next/image'
 import cell from '../public/src/images/celphone.png'
 import map from '../public/src/images/map.png'
 import mail from '../public/src/images/mail.png'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faInstagram,
+    faPinterestP,
+    faTwitter,
+    faFacebookF
+  } from '@fortawesome/free-brands-svg-icons';
+  import { faPlay } from '@fortawesome/free-solid-svg-icons';
 
 const Footer = () => {
     return (
@@ -22,7 +30,19 @@ const Footer = () => {
                                 <span class="before-submit">Hire Now</span>
                                 <span class="after-submit">Thank you for subscribing!</span>
                             </button>
-                            </form>
+                        </form>
+
+                        <div className='pb-5 text-center mt-5'>
+                            <FontAwesomeIcon icon={faFacebookF} className="socialIconFooter" />
+                            <FontAwesomeIcon icon={faInstagram} className="socialIconFooter" />
+                            <FontAwesomeIcon icon={faPinterestP} className="socialIconFooter" />
+                            <FontAwesomeIcon icon={faTwitter} className="socialIconFooter" />
+                            <FontAwesomeIcon icon={faPlay} className="socialIconFooter" />
+                            <div className='mt-4'>
+                                <p className='subTitleWhite'>English (US)</p>
+                            </div>
+                        </div>
+                        
                     </div>
 
                     <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>

@@ -33,6 +33,9 @@ h1, h2, h3, h4, h5, h6 , p {
 .yellowText {
     color: #FFC100;
 }
+.whiteText {
+    color: white;
+}
 
 .title {
     font-weight: 700;
@@ -446,3 +449,53 @@ h1, h2, h3, h4, h5, h6 , p {
     }
     
    }
+
+
+
+
+
+
+
+
+
+
+
+   @media all and (max-width: 768px) { 
+
+    .searchTop {
+        display: none !important;
+    }
+
+    /* Global Css Style  */
+    /* ====================== */
+    .LargeContentWhite {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .miniContent {
+        max-width: 300px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .boldContent {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ========================== */
+
+    .textPadding {
+        padding: 25px 0px 0px 25px;
+    }
+    
+    .topButton {
+        max-width: 365px;
+        height: 112px;
+    }
+
+    .checkOut {
+        display: none;
+    }
+    }

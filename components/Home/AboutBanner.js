@@ -7,8 +7,8 @@ import aboutImage from '../../public/src/images/aboutImage.png'
 
 const AboutBanner = () => {
     return (
-        <div className="container-fluid my-5 pb-5" id='about'>
-            <div className="container my-5 py-5">
+        <div className="container-fluid my-5 py-5" id='about'>
+            <div className="container my-5 py-xl-5 py-lg-0">
                 <div className="" style={{position:"relative"}}>
                     <div className='text-center'>
                         {/* <Image src={left} alt="topBannerImage" className='leftImage' />

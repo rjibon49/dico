@@ -13,7 +13,7 @@ const PortfolioData = () => {
         <div className="container-fluid py-5" id='portfolio'>
             <div className="container py-5">
                 <div className='mb-5'>
-                    <h4 className='midContent'>portfolio</h4>
+                    <h4 className='midContent'>Portfolio</h4>
                     <h3 className='title'>Latest Works!</h3>
                     <p className='subTitle'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque praesent odio nam mauris proin. Suspendisse orci diam quam elementum, nisl sit volutpat elementum lobortis. Ultrices arcu eget amet blandit pretium posuere. Eget purus nullam eget vivamus porta scelerisque convallis amet. Ipsum diam libero, at scelerisque dui nulla proin rutrum. Quam sed ut purus rhoncus ut ultricies quam sed eget.</p>
                 </div>

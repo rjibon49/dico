@@ -9,7 +9,7 @@ import video from '../../public/src/images/Video-Editing.png'
 const OurService = () => {
     return (
         <div id='service' className="container-fluid py-5">
-           <div className="container py-5 my-5">
+           <div className="container py-xl-5 y-lg-0 my-5">
                 <div className="row py-5" style={{alignItems:"center"}}>
                     <div className="col-xl-5 col-md-12 col-sm-12 col-xs-12">
                         <h4 className='midContent'>Our Service</h4>

@@ -29,7 +29,7 @@ const Header = () => {
                                 <Link href="#service"><a className='menuLinkBlack'>Home</a></Link>
                             </li> */}
                             <li className="nav-item mx-2">
-                                <Link href="/contact"><a className='menuLinkBlack'>About Us</a></Link>
+                                <Link href="#about"><a className='menuLinkBlack'>About Us</a></Link>
                             </li>
                             <li className="nav-item mx-2">
                                 <Link href="#portfolio"><a className='menuLinkBlack'>Portfolio</a></Link>

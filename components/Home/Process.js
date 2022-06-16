@@ -3,8 +3,8 @@ import loding from '../../public/src/images/loding.png'
 
 const Process = () => {
     return (
-        <div className="containe-fluid py-5 orange">
-            <div className="container py-5">
+        <div className="containe-fluid pb-5 orange">
+            <div className="container pb-5">
                 <div className="row">
                     <div className="col-xl-6 col-md-12 col-sm-12 col-xs-12">
                         <Image src={loding} alt="Loding Dico IT" className='logo'/>

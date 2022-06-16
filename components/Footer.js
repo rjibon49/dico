@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="container-fluid purple py-5">
             <div className="container">
                 <div className="row my-5">
-                    <div className="col-xl-5 col-lg-4 col-md-12 col-sm-12 col-xs-12" style={{ paddingRight:"50px"}}>
+                    <div className="col-xl-5 col-lg-6 col-md-12 col-sm-12 col-xs-12" style={{ paddingRight:"50px"}}>
                         <div>
                             <h1 className="yellowText LargeContent">Build</h1>
                             <h1 className="yellowText LargeContent">Your Agency</h1>
@@ -45,17 +45,17 @@ const Footer = () => {
                         
                     </div>
 
-                    <div className="col-xl-2 col-lg-4 col-md-12 col-sm-12 col-xs-12"></div>
+                    <div className="col-xl-2 col-lg-1 col-md-12 col-sm-12 col-xs-12 d-lg-none d-xl-block"> </div>
 
-                    <div className="col-xl-5 col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                        <nav className="navbar navbar-expand mb-5">
+                    <div className="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <nav className="navbar navbar-expand mb-5 d-lg-none d-xl-block">
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav ms-auto me-auto mb-2 mb-lg-0 me-5">
                                     <li className="nav-item mx-2">
                                         <Link href="#home"><a className='menuLinkWhite'>Home</a></Link>
                                     </li>
                                     <li className="nav-item mx-2">
-                                        <Link href="/contact"><a className='menuLinkWhite'>About Us</a></Link>
+                                        <Link href="#about"><a className='menuLinkWhite'>About Us</a></Link>
                                     </li>
                                     <li className="nav-item mx-2">
                                         <Link href="#portfolio"><a className='menuLinkWhite'>Portfolio</a></Link>

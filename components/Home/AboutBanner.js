@@ -7,7 +7,7 @@ import aboutImage from '../../public/src/images/aboutImage.png'
 
 const AboutBanner = () => {
     return (
-        <div className="container-fluid my-5 py-5">
+        <div className="container-fluid my-5 pb-5" id='about'>
             <div className="container my-5 py-5">
                 <div className="" style={{position:"relative"}}>
                     <div className='text-center'>
@@ -21,14 +21,14 @@ const AboutBanner = () => {
                             <div className='col-4'>
                                 <p className='about'>About Us</p>
                                 <p className='title'>Creative Designer Creative Website</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id dolor vitae aliquet placerat ac. </p>
+                                <p className='boldContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id dolor vitae aliquet placerat ac. </p>
                             </div>
 
                             <div className='col-4'></div>
 
                             <div className='col-4'>
                                 <p className='title'>Let’s Make Something Trendy and Cool</p>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id dolor vitae aliquet placerat ac. </p>
+                                <p className='boldContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id dolor vitae aliquet placerat ac. </p>
                             </div>
                         </div>
                     </div>

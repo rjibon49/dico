@@ -1,6 +1,7 @@
 
 
-/* ========== Global CSS ============= */
+    /* =========== Global Css Style  ===========*/
+    /* ========================================== */
 
 body, html {
     font-family: 'Poppins', sans-serif;
@@ -77,19 +78,50 @@ h1, h2, h3, h4, h5, h6 , p {
     line-height: 38px;
     color: #464646;
 }
+.boldContent {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.smallContent {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+.LargeContent {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    /* or 135% */
+
+    letter-spacing: 0.045em;
+}
+.LargeContentWhite {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 65px;
+    /* or 135% */
+
+    letter-spacing: 0.045em;
+    color: white;
+}
 
 /* ========= Banner Style =========== */
-
+.textPadding {
+    padding: 110px 0px 0px 75px;
+}
 .bannerDiv {
     position: absolute;
     top: 75px;
     right: 0;
+    width: 60%;
 }
 
 .topButton {
     max-width: 510px;
     text-align: center;
-    height: 365px;
+    height: 210px;
 }
 
 .tButton {
@@ -126,46 +158,14 @@ h1, h2, h3, h4, h5, h6 , p {
 }
 /* ========= About Style =========== */
 
-.leftImage , .rightImage {
+/* .leftImage , .rightImage {
     background-color: #C8C3FB !important;
-}
-
-
-
+} */
 
 
 /* ========= Process Style =========== */
 .leftSpace {
     padding-left: 110px;
-}
-
-.boldContent {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-.smallContent {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 18px;
-}
-.LargeContent {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 65px;
-    /* or 135% */
-
-    letter-spacing: 0.045em;
-}
-.LargeContentWhite {
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 65px;
-    /* or 135% */
-
-    letter-spacing: 0.045em;
-    color: white;
 }
 
 .qButton {
@@ -380,3 +380,69 @@ h1, h2, h3, h4, h5, h6 , p {
     padding: 5px 10px;
     border-radius: 5px;
   }
+
+
+
+
+
+
+
+
+
+  /* =============== ===========  ================*/
+  /* =============== Media Query  ================*/
+  /* =============== ===========  ================*/
+
+  /* ========= Banner Style =========== */
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) {
+    
+    /* Global Css Style  */
+    /* ====================== */
+    .LargeContentWhite {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .miniContent {
+        max-width: 400px;
+    }
+    .title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .boldContent {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /* ========================== */
+
+    .textPadding {
+        padding: 25px 0px 0px 25px;
+    }
+    
+    .topButton {
+        max-width: 365px;
+        height: 112px;
+    }
+    
+    .sendImage {
+        margin: 2px 0px 10px 0px !important;
+    }
+    
+    .checkOut {
+        padding-right: 30px;
+    }
+
+    /*============== About Section  =================*/
+    .aboutImage {
+        min-width: 75% !important;
+        min-height: 75% !important;
+    }
+    .aboutPosiTion {
+        position: absolute;
+        bottom: -65px;
+        left: 45px;
+    }
+    
+   }

@@ -1,11 +1,13 @@
 import { Html, Head, Main, NextScript } from 'next/document'
 
+
 export default function Document() {
   return (
     <Html lang='en'>
         <Head>
             
             {/* Google Fonts  */}
+            <link rel="shortcut icon" href="/public/favicon/dicoiticon.ico" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;900&display=swap" rel="stylesheet"></link>
@@ -16,6 +18,9 @@ export default function Document() {
              {/* Custom CSS  */}
 
              {/* <link rel="stylesheet" type="css" href="/_next/public/static/styles.css" /> */}
+             <link rel="icon" type='image/png' sizes='16x16' href="/public/src/logo/DicoItLogo.png" />
+             {/* <link rel="shortcut icon" href={fav} /> */}
+             <title>Dico IT</title>
 
         </Head>
       <body>

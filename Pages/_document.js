@@ -26,14 +26,7 @@ export default function Document() {
         {/* Custom CSS  */}
 
         {/* <link rel="stylesheet" type="css" href="/_next/public/static/styles.css" /> */}
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/public/src/logo/DicoItLogo.png"
-        />
-        {/* <link rel="shortcut icon" href={fav} /> */}
-        <title>Dico IT</title>
+        
       </Head>
       <body>
         <Main />

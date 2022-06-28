@@ -9,6 +9,15 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+      <title>Dico IT</title>
+      <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/public/src/logo/DicoItLogo.png"
+        />
+        {/* <link rel="shortcut icon" href={fav} /> */}
+        
         <meta charSet="UTF-8" />
         <meta
           name="viewport"

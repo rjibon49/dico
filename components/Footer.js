@@ -11,8 +11,27 @@ import {
     faFacebookF
   } from '@fortawesome/free-brands-svg-icons';
   import { faPlay } from '@fortawesome/free-solid-svg-icons';
+//   import emailjs from 'emailjs';
+//   import useSWR from 'swr';
+//   import  React from 'react';
+
 
 const Footer = () => {
+
+    // const form = React.createRef();
+
+    // const sendEmail = (e) => {
+    //     emailjs.sendForm('service_hwv6qfd', 'template_yw3apf4', form.current, '-kXtQ2UcExgETgMQL')
+    //       .then((result) => {
+    //           console.log(result.text)
+    //       }, (error) => {
+    //           console.log(error.text);
+    //       });
+          
+    //       e.target.reset();
+    //       e.preventDefault();
+    //   };
+
     return (
         <div className="container-fluid purple py-5">
             <div className="container">
@@ -24,10 +43,10 @@ const Footer = () => {
                             <p className="subTitleWhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque praesent odio nam mauris proin. Suspendisse.</p>
                         </div>
 
-                        <form class="subscription">
-                            <input class="add-email" type="email" placeholder="Your Business E-mail...." />
-                            <button class="submit-email" type="button">
-                                <span class="before-submit">Hire Now</span>
+                        <form className="subscription" >
+                            <input className="add-email" type="email" placeholder="Your Business E-mail...." />
+                            <button className="submit-email"  type="submit" value="Send">
+                                <span className="before-submit">Hire Now</span>
                             </button>
                         </form>
 
@@ -84,7 +103,7 @@ const Footer = () => {
                                             <Image src={map} alt="DicoIT"/>
                                         </div>
                                         <div className='col-10'>
-                                            <p className='subTitleWhite ps-4'>yourmail@gmail.com</p>
+                                            <p className='subTitleWhite ps-4'>support@dicoit.com</p>
                                         </div>
                                     </div>
                                     <div className='row'>

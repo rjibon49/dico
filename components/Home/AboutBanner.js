@@ -16,7 +16,7 @@ const AboutBanner = () => {
                         <Image src={right} alt="topBannerImage" className='rightImage' /> */}
                         <Image src={aboutImage} alt="topBannerImage" className='aboutImage' />
                     </div>
-                    <div class="aboutPosiTion">
+                    <div className="aboutPosiTion">
                         <div className='row'>
                             <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12'>
                                 <div className='ps-xl-2 ps-lg-2'>

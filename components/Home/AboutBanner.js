@@ -16,22 +16,22 @@ const AboutBanner = () => {
                         <Image src={right} alt="topBannerImage" className='rightImage' /> */}
                         <Image src={aboutImage} alt="topBannerImage" className='aboutImage' />
                     </div>
-                    <div className="aboutPosiTion">
+                    <div className="">
                         <div className='row'>
-                            <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12'>
+                            <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 aboutPosiTionLeft'>
                                 <div className='ps-xl-2 ps-lg-2'>
-                                    <p className='about'>About Us</p>
-                                    <p className='title'>Creative Designer Creative Website</p>
-                                    <p className='boldContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id dolor vitae aliquet placerat ac. </p>
+                                    <p className='title text-center'>OUR MISSION</p>
+                                    <p className='italicFont'>Dico IT educate and develop IT software for non-profit to assist them in effectively carrying out their mission.
+</p>
                                 </div>
                             </div>
 
-                            <div className='col-4'></div>
+                            <div className='col-6'></div>
 
-                            <div className='col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12'>
+                            <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 aboutPosiTionRight'>
                                 <div className='ps-xl-2 ps-lg-2'>
-                                    <p className='title'>Let’s Make Something Trendy and Cool</p>
-                                    <p className='boldContent'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem id dolor vitae aliquet placerat ac. </p>
+                                    <p className='title text-center'>OUR VISION</p>
+                                    <p className='italicFont'>Innovating Non-profit with IT solutions</p>
                                 </div>
                             </div>
                         </div>

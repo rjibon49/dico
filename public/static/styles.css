@@ -5,9 +5,18 @@
 
 body, html {
     font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
 }
+@font-face {
+    font-family: myFirstFont;
+    src: url(/public/fonts/priamos/priamos-serial-bold.ttf);
+ }
+
 h1, h2, h3, h4, h5, h6 , p {
     color: #464646;
+    padding: 0;
+    margin: 0;
 }
 
 .orange {
@@ -30,7 +39,9 @@ h1, h2, h3, h4, h5, h6 , p {
 }
 
 .redText {
-    color: #E33B39;
+    color: yellow;
+    font-family: 'myFirstFont', 'sans-serif';
+    font-weight: 700;
 }
 
 .yellowText {
@@ -44,6 +55,12 @@ h1, h2, h3, h4, h5, h6 , p {
     font-weight: 700;
     font-size: 36px;
     line-height: 54px;
+}
+.titleNew {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    
 }
 
 .subTitle {
@@ -104,13 +121,18 @@ h1, h2, h3, h4, h5, h6 , p {
     letter-spacing: 0.045em;
 }
 .LargeContentWhite {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 48px;
     line-height: 65px;
-    /* or 135% */
-
-    letter-spacing: 0.045em;
+    font-family: 'myFirstFont', 'sans-serif';
     color: white;
+}
+.italicFont {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 /* ========= Banner Style =========== */
@@ -125,9 +147,9 @@ h1, h2, h3, h4, h5, h6 , p {
 }
 
 .topButton {
-    max-width: 510px;
+    max-width: 450px;
     text-align: center;
-    height: 150px;
+    height: 170px;
 }
 
 .tButton {
@@ -139,7 +161,7 @@ h1, h2, h3, h4, h5, h6 , p {
     border-radius: 42px;
     font-size: 15px;
     line-height: 22px;
-    font-weight: 400; 
+    font-weight: 500; 
 }
 .pButton {
     background-color: #4E309A;
@@ -177,12 +199,15 @@ h1, h2, h3, h4, h5, h6 , p {
 .qButton {
     background-color: #D25B63;
     color: white;
-    padding: 10px 25px;
     border: 0;
-    border-radius: 30px;
+    border-radius: 50px;
     font-size: 25px;
     line-height: 38px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);  
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 25%);
+    font-family: 'Poppins';
+    width: 230px;
+    height: 80px;
+    font-weight: 400;
 }
 .wButton {
     padding: 10px 20px;
@@ -355,11 +380,16 @@ h1, h2, h3, h4, h5, h6 , p {
   .test {
     max-width: 30%;
   }
-  .aboutPosiTion {
+  .aboutPosiTionRight {
     position: absolute;
-    bottom: -87px;
-    left: 45px;
-  }
+    top: 350px;
+    right: 55px;
+}
+  .aboutPosiTionLeft {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
   .aboutImage {
     min-width: 90% !important;
   }

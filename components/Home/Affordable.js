@@ -5,7 +5,7 @@ import price from '../../public/src/images/price.png'
 
 const Affordable = () => {
     return (
-        <div className="container-fluid py-5 orange">
+        <div className="container-fluid py-5 gray">
            <div className="container py-xl-5 py-lg-0 my-5">
                <div className='text-center pb-5'>
                    <h2 className='title'>Affordable Price!</h2>

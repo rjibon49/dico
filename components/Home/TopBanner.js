@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import topBannerImage from '../../public/src/images/topBannerImage.png'
-import send from '../../public/src/images/send.png'
+import topBannerImage from '../../public/src/images/topBannerImage1.png'
+import send from '../../public/src/images/send1.png'
 import arrow from '../../public/src/images/arrow.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

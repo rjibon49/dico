@@ -2,7 +2,7 @@ import Image from 'next/image'
 import center from '../../public/src/images/aboutCenter.png'
 import left from '../../public/src/images/aboutLeft.png'
 import right from '../../public/src/images/aboutRight.png'
-import aboutImage from '../../public/src/images/aboutImage.png'
+import aboutImage from '../../public/src/images/aboutImage1.png'
 
 
 const AboutBanner = () => {

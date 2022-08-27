@@ -134,6 +134,70 @@ h1, h2, h3, h4, h5, h6 , p {
     line-height: 30px;
     text-align: center;
 }
+/* ================= Header Style ================= */
+.headerSearch {
+    position: relative;
+    width: 50%;
+    height: 15%;
+    margin: -35px auto 0px;
+  }
+  
+  .headerSearch .add-search{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 35px;
+    border: 1px solid black;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 25px;
+    background-color: white;
+  }
+  
+  .headerSearch .submit-search {
+    position: absolute;
+    top: 5px;
+    left: 70%;
+    height: calc(100% - 7px);
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    margin: 1px;
+    padding: 0 70px;
+    cursor: pointer;
+    background: red;
+    color: #464646;
+    transition: width .35s ease-in-out,
+      background .35s ease-in-out;
+  }
+  
+  .headerSearch.done .submit-search {
+    width: calc(50% - 2px);
+    background: white;
+  }
+  
+  .headerSearch .submit-search .before-search,
+  .headerSearch .submit-search .after-search {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    line-height: 38px;
+    transition: visibility .35s ease-in-out,
+      opacity .35s ease-in-out;
+  }
+  
+  .headerSearch.done .submit-search .before-search,
+  .headerSearch:not(.done) .submit-search .after-search {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .headerSearch .submit-search .after-search {
+    transition-delay: .35s;
+  }
 
 /* ========= Banner Style =========== */
 .textPadding {
@@ -149,7 +213,7 @@ h1, h2, h3, h4, h5, h6 , p {
 .topButton {
     max-width: 450px;
     text-align: center;
-    height: 170px;
+    height: 230px;
 }
 
 .tButton {
@@ -189,6 +253,9 @@ h1, h2, h3, h4, h5, h6 , p {
 /* .leftImage , .rightImage {
     background-color: #C8C3FB !important;
 } */
+.nagetiveMargin {
+    margin-bottom: -50px;
+}
 
 
 /* ========= Process Style =========== */
@@ -253,7 +320,7 @@ h1, h2, h3, h4, h5, h6 , p {
     background-color: #F9E8E9;
     border-radius: 10px;
     margin: 10px auto;
-    height: 345px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,10 +335,18 @@ h1, h2, h3, h4, h5, h6 , p {
     padding: 10px 30px 0px;
 }
 
+.serviceItalic {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 485px;
+}
+
 /* ============== Affordable Style =========== */
 
 .oButton {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 25px;
     line-height: 38px;
     background-color: #FACB4B;
@@ -280,9 +355,37 @@ h1, h2, h3, h4, h5, h6 , p {
     border: 0;
     border-radius: 30px;
 }
+.subtitleCenter {
+    max-width: 760px;
+    margin: 20px auto 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* =========== Redesign Style ============ */
+
+.reTitle {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 60px;
+}
+.reTitleBold {
+    color: #D25B63;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
 
 /* ============== Footer Style =========== */
 
+.footerTitle {
+    font-family: 'myFirstFont';
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    color: #FBF3F3;
+}
 .menuLinkBlack {
     text-decoration: none;
     color: #464646;
@@ -308,8 +411,8 @@ h1, h2, h3, h4, h5, h6 , p {
 
 .subscription {
     position: relative;
-    width: 100%;
-    height: 12%;
+    width: 90%;
+    height: 15%;
   }
   
   .subscription .add-email{
@@ -383,7 +486,7 @@ h1, h2, h3, h4, h5, h6 , p {
   .aboutPosiTionRight {
     position: absolute;
     top: 350px;
-    right: 55px;
+    right: 75px;
 }
   .aboutPosiTionLeft {
     position: absolute;
@@ -465,7 +568,7 @@ h1, h2, h3, h4, h5, h6 , p {
     
     .topButton {
         max-width: 365px;
-        height: 80px;
+        height: 145px;
     }
     
     .sendImage {
@@ -486,15 +589,34 @@ h1, h2, h3, h4, h5, h6 , p {
         bottom: -65px;
         left: 45px;
     }
+    .nagetiveMargin {
+        margin-bottom: -100px;
+    }
+    .aboutPosiTionRight {
+        top: 56%;
+    }
+    .aboutPosiTionLeft {
+        top: 56%;
+    }
+    .italicFont {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .rightContentVideo  {
+        width: 330px;
+        height: 290px;
+    }
+    .rightContentBg {
+        width: 220px;
+    }
+    .headerSearch .add-search {
+        left: 25%;
+    }
+    .headerSearch .submit-search {
+        left: 54%;
+    }
     
    }
-
-
-
-
-
-
-
 
 
 
@@ -531,7 +653,7 @@ h1, h2, h3, h4, h5, h6 , p {
     
     .topButton {
         max-width: 365px;
-        height: 25px;
+        height: 100px;
     }
     .tButton {
         display: none;
@@ -554,6 +676,21 @@ h1, h2, h3, h4, h5, h6 , p {
         width: 100%;
         height: 23%;
     }
+
+    .aboutPosiTionLeft {
+        left: 0px;
+    }
+    .aboutPosiTionRight {
+        right: 0px;
+    }
+    .italicFont {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .reSpace {
+        margin-top: 50px;
+    }
+
     }
 
 
@@ -577,6 +714,10 @@ h1, h2, h3, h4, h5, h6 , p {
         .pButton {
             display: inline; 
         }
+        .qButton {
+            width: 190px;
+            height: 55px;
+        }
     
         .checkOut {
             display: inline;
@@ -584,6 +725,30 @@ h1, h2, h3, h4, h5, h6 , p {
         }
         .leftSpace {
             padding-left: 25px;
+        }
+        .nagetiveMargin {
+            margin-bottom: 0px;
+        }
+        .aboutPosiTionLeft {
+            position: static;
+            margin: 15px 0;
+        }
+        .aboutPosiTionRight {
+            position: static;
+        }
+        .serviceItalic {
+            font-size: 25px;
+            line-height: 36px;
+        }
+        .rightContentBg {
+            margin: 50px auto 30px ;
+        }
+        .reSpace {
+            margin-top: 50px;
+        }
+        .nav-item {
+            text-align: center;
+            margin: 10px 0px;
         }
         .subscription {
             position: relative;
@@ -653,17 +818,32 @@ h1, h2, h3, h4, h5, h6 , p {
         }
 
         .wButton {
-            padding: 10px 11px;
+            padding: 10px 9px;
         }
         .qButton {
-            padding: 10px 20px;
+            width: 140px;
+            height: 50px;
             font-size: 16px;
             line-height: 25px;
+            margin: 0px !important;
         }
         .leftSpace {
             padding-left: 25px;
         }
-
+        .aboutPosiTionLeft {
+            margin: 15px 0px;
+        }
+        .serviceItalic {
+            font-size: 18px;
+            line-height: 28px;
+        }
+        .rightContentBg {
+            width: auto;
+        }
+        .nav-item {
+            text-align: center;
+            margin: 10px 0px;
+        }
 
 
 

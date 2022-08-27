@@ -15,7 +15,7 @@ import {
 const TopBanner = () => {
     return (
         // <div className='purple'>
-            <div className="container mb-5 purple" id="home" style={{position:"relative"}}>
+            <div className="container-fluid mb-5 purple" id="home" style={{position:"relative"}}>
             <div className="">
                 <div className='textPadding'>
                     <h1 className="LargeContentWhite">DESIGN <br />YOUR <span className="redText">WEBSITE</span> <br /> WITH OUR <br /> <span className="redText">EXPERT DESIGNER</span></h1>

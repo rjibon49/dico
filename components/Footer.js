@@ -38,12 +38,11 @@ const Footer = () => {
                 <div className="d-flex justify-content-between my-5 flex-wrap">
                     <div className="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-xs-12 ">
                         <div>
-                            <h1 className="yellowText LargeContent">Build</h1>
-                            <h1 className="yellowText LargeContent">Your Agency</h1>
+                            <h1 className="footerTitle mb-3">Build <br />Your Agency </h1>
                             <p className="subTitleWhite">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pellentesque praesent odio nam mauris proin. Suspendisse.</p>
                         </div>
 
-                        <form className="subscription" >
+                        <form className="subscription mt-5" >
                             <input className="add-email" type="email" placeholder="Your Business E-mail...." />
                             <button className="submit-email"  type="submit" value="Send">
                                 <span className="before-submit">Hire Now</span>
@@ -88,9 +87,9 @@ const Footer = () => {
                             </div>
                         </nav>
                             <div className='pt-5 mt-5'>
-                                <p className="text-center subTitleWhite" >contact Us</p>
+                                <p className="text-center subTitleWhite mb-5" >contact Us</p>
                                 
-                                    <div className='row'>
+                                    <div className='row pb-3'>
                                         <div className='col-2 iconBg'>
                                             <Image src={cell} alt="DicoIT"/>
                                         </div>
@@ -98,7 +97,7 @@ const Footer = () => {
                                             <p className='subTitleWhite ps-4'>+00 123-456789</p>
                                         </div>
                                     </div>
-                                    <div className='row'>
+                                    <div className='row pb-3'>
                                         <div className='col-2 iconBg'>
                                             <Image src={map} alt="DicoIT"/>
                                         </div>
@@ -106,7 +105,7 @@ const Footer = () => {
                                             <p className='subTitleWhite ps-4'>support@dicoit.com</p>
                                         </div>
                                     </div>
-                                    <div className='row'>
+                                    <div className='row pb-3'>
                                         <div className='col-2 iconBg'>
                                             <Image src={mail} alt="DicoIT"/>
                                         </div>

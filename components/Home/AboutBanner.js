@@ -9,8 +9,9 @@ const AboutBanner = () => {
     return (
         <div className="container my-5 py-5" id='about'>
             <div className=" my-5 py-xl-5 py-lg-0">
-                <div className="" style={{position:"relative"}}>
+                <div className="my-5" style={{position:"relative"}}>
                     <div className='text-center'>
+                        <p className='about nagetiveMargin'>About Us</p>
                         {/* <Image src={left} alt="topBannerImage" className='leftImage' />
                         <Image src={center} alt="topBannerImage" className='centerImage' />
                         <Image src={right} alt="topBannerImage" className='rightImage' /> */}
@@ -18,7 +19,7 @@ const AboutBanner = () => {
                     </div>
                     <div className="">
                         <div className='row'>
-                            <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 aboutPosiTionLeft'>
+                            <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 aboutPosiTionLeft'>
                                 <div className='ps-xl-2 ps-lg-2'>
                                     <p className='title text-center'>OUR MISSION</p>
                                     <p className='italicFont'>Dico IT educate and develop IT software for non-profit to assist them in effectively carrying out their mission.
@@ -28,7 +29,7 @@ const AboutBanner = () => {
 
                             <div className='col-6'></div>
 
-                            <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 aboutPosiTionRight'>
+                            <div className='col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 aboutPosiTionRight'>
                                 <div className='ps-xl-2 ps-lg-2'>
                                     <p className='title text-center'>OUR VISION</p>
                                     <p className='italicFont'>Innovating Non-profit with IT solutions</p>
